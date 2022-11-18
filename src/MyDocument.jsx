@@ -77,12 +77,10 @@ const MyDocument = () => {
   doc.setFont("challan", "bold");
   doc.setFontSize(10);
   doc.text("Challan No. ", 95, 80);
-
   //
   doc.setFont("challan", "normal");
   doc.setFontSize(10);
   //
-
   doc.setFont("order", "bold");
   doc.setFontSize(10);
   doc.text("Reference No.", 95, 95);
